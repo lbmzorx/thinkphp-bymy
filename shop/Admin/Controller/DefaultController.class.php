@@ -8,7 +8,6 @@
 
 namespace Admin\Controller;
 
-use Think\Controller;
 class DefaultController extends CommonController
 {
     public function index(){
