@@ -14,25 +14,32 @@ class ProductController extends CommonController
     public function index(){
 
         $product = D('Product');
-        $product->select();
-        $this->assign('product',$product);
-        return $this->display('index');
+        $data=$product->select();
+
+        $this->assign('data',$data);
+        $this->display();
     }
     public function add(){
 
         $product = D('Product');
-        if(!empty($_POST)){
-            $z=$product->save($_POST);
+        $post = I('POST.');
+        if(!empty($post)){
+            $productOne = $post;
+            $productOne['add_time']=time();
+            $z=$product->add($productOne);
             if($z){
-                $this->redirect('index',['name'=>'aa','type'=>true],3,'成功');
+                return ['status'=>true,'msg'=>'成功添加商品信息'];
             }else{
-                $this->redirect('index',['name'=>'aa','type'=>true],3,'失败');
+                return ['status'=>false,'msg'=>'添加商品信息失败'];
             }
         }
-
-        return $this->display();
+        $this->display();
     }
     public function edit(){
-        return $this->display();
+
+        $id=I('get.id','','number_int');
+        $data = M('Product')->select($id);
+        $this->assign('data',$data);
+        $this->display();
     }
 }
