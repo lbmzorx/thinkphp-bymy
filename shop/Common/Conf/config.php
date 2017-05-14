@@ -2,7 +2,7 @@
 return array(
 	//'配置项'=>'配置值'
     'url_model'          => '1', //URL模式
-    'SHOW_PAGE_TRACE'    => true,   //开启跟踪模式
+//    'SHOW_PAGE_TRACE'    => true,   //开启跟踪模式
 
 //    'TMPL_L_DELIM' => '<{', //模板左标记
 //    'TMPL_R_DELIM' => '}>', //模板右标记

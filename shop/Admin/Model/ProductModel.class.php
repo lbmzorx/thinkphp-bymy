@@ -8,7 +8,7 @@
  */
 namespace Admin\Model;
 use Think\Model;
-class Product extends Model
+class ProductModel extends Model
 {
     protected $fields = ['id','name','cate_id','price','number','add_time','edit_time','image','thumb','brand','detail'];
     protected $pk = 'id';

@@ -2,12 +2,259 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="630eeea4-e420-4abb-92d8-0658426aa66c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/shop/Runtime/Cache/Admin/31a71036be22541a2cb9031b68df4792.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/shop/Runtime/Cache/Admin/607df75a199a5310591acfba5669a5ee.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/shop/Runtime/Cache/Admin/72941a2ceae0ec0519364502319131be.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/shop/Runtime/Cache/Admin/a8667c96a202b9745e789a09f080b882.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/shop/Runtime/Cache/Home/20914c0f075f91df3579ffbdf5180b02.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/10_thumb_G_1242973436403.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/111.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/1240802922410634065.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/1240803062307572427.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/1240803144788047486.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/12_thumb_G_1241965978410.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/13_thumb_G_1241968002527.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/17_thumb_G_1241969394587.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/19_thumb_G_1241970175208.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/1_thumb_G_1240902890710.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/20081027angsif.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/20081027wdwd.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/20081027xuorxj.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/20_thumb_G_1242106490058.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/21_thumb_G_1242109298150.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/222.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/22_thumb_G_1241971076803.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/24_thumb_G_1241971981429.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/32_thumb_G_1242110760196.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/333.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/3_thumb_G_1241422082679.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/8_thumb_G_1241425513488.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/9_G_1241511871574.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/9_P_1241511871575.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/9_thumb_G_1241511871555.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/9_thumb_P_1241511871787.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/NavBg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/alone.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/art_cat_fen.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/art_cat_t.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/biao1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/biao2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/biao3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/biao4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/biao5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/biao6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/biao7.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/bnt_buy.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/bnt_buy_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/bnt_cat.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/bnt_coll.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/bnt_colles.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/bnt_go.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/bnt_home.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/bnt_log.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/bnt_reg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/bnt_search.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/bnt_sign.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/bnt_subOrder.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/bnt_subOrder.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/bnt_subOrder副本.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/bnt_top.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/bnt_ur_log.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/bnt_ur_reg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/box_2Bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/brandBg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/btn.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/captcha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/car_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/catBg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/category_tit.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/checkout.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/commentsBnt.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/compareBg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/compareSub.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/comparebox.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/continue.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/di.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/display_mode_grid.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/display_mode_grid_act.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/display_mode_list.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/display_mode_list_act.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/display_mode_text.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/display_mode_text_act.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/drop.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/dynfocus.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/ecmoban.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/ecshop_logo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/footerLine.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/foucsBg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/goods_id_ASC.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/goods_id_DESC.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/goods_id_default.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/goumai.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/goumai2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/h3title.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/header_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/help1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/help2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/help3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/help4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/help5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/helpTitBg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/helpTitbg1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/help_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/inputbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/itemH2Bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/jiesuan.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/last_update_ASC.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/last_update_DESC.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/last_update_default.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/left_h3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/left_help_biao.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/lineBg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/linklogo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/logo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/logo.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/logo1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/logo222222.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/menuBg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/meun_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/more.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/moreBrands.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/msn.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/nav_bottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/newart_tit.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/note.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/page01.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/page02.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/page03.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/page04.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/picture_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/qq_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/qq_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/salesBg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/salesGoodBg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/salesTitBg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/screenshot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/screenshot.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/searchBg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/search_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/shop_price_ASC.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/shop_price_DESC.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/shop_price_default.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/shoucang.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/shoucang2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/shuomin.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/shuomin.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/siderIM_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/siderIM_bottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/siderIM_infobox.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/siderIM_title.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/sousuo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/stars0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/stars1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/stars2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/stars3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/stars4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/stars5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/tel.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/tit.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/tit1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/tit3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/tit_best_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/tit_best_r.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/tit_hot_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/tit_hot_r.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/tit_hot_r.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/tit_new_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/tit_new_r.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/tit_sale_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/top10_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/top10_tit.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/top2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/topNavBg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/topNavR.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/top_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/top_10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/top_2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/top_3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/top_4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/top_5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/top_6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/top_7.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/top_8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/top_9.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/tuijian.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/u1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/u10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/u11.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/u12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/u13.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/u14.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/u2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/u3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/u4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/u5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/u6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/u7.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/u8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/u9.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/uh_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/ur_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/ur_bg1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/user_tit1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/user_tit2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/user_tit3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/xml_rss2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/yahoo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/zoom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/评价.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Admin/Model/AdminsModel.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Controller/UserController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Model/UserModel.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/a.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/category.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/controlbar.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/ecshop_logo.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/flow.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/goods.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/index.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/online.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/pa.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/qq.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/transport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/user.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/img/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/js/action.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/js/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/js/compare.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/js/cycle_image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/js/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/js/global.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/js/mzp-packed-me.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/js/region.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/js/shopping_flow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/js/showdiv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/js/transport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/js/user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/Public/js/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/View/User/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Home/View/User/register.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Admin/Controller/ManagerController.class.php" afterPath="$PROJECT_DIR$/shop/Admin/Controller/ManagerController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Admin/Controller/ProductController.class.php" afterPath="$PROJECT_DIR$/shop/Admin/Controller/ProductController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Admin/View/Default/head.html" afterPath="$PROJECT_DIR$/shop/Admin/View/Default/head.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Admin/View/Default/left.html" afterPath="$PROJECT_DIR$/shop/Admin/View/Default/left.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Admin/View/Default/right.html" afterPath="$PROJECT_DIR$/shop/Admin/View/Default/right.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Admin/View/Manager/login.html" afterPath="$PROJECT_DIR$/shop/Admin/View/Manager/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Admin/View/Product/add.html" afterPath="$PROJECT_DIR$/shop/Admin/View/Product/add.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Admin/View/Product/index.html" afterPath="$PROJECT_DIR$/shop/Admin/View/Product/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Common/Conf/config.php" afterPath="$PROJECT_DIR$/shop/Common/Conf/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Tools/ArrayStr.class.php" afterPath="$PROJECT_DIR$/shop/Tools/ArrayStr.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/index.php" afterPath="$PROJECT_DIR$/shop/index.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/shop/Admin/Model/Product.php" afterPath="$PROJECT_DIR$/shop/Admin/Model/ProductModel.class.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,31 +283,11 @@
       <file leaf-file-name="ProductController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shop/Admin/Controller/ProductController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="78" column="40" lean-forward="true" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop/Admin/Public/js/common.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+            <state relative-caret-position="-323">
+              <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
               <folding>
-                <element signature="e#0#49#0" expanded="false" />
+                <element signature="e#124#140#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayStr.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop/Tools/ArrayStr.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -68,25 +295,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop/Admin/View/Product/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="699">
-              <caret line="62" column="84" lean-forward="false" selection-start-line="62" selection-start-column="84" selection-end-line="62" selection-end-column="84" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#span#1;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#form#0;n#span#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            <state relative-caret-position="493">
+              <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -117,6 +327,23 @@
       <find>删除</find>
       <find>.0.</find>
       <find>tr_color</find>
+      <find>ADMIN</find>
+      <find>images</find>
+      <find>./css</find>
+      <find>./images</find>
+      <find>index.php</find>
+      <find>user_tel</find>
+      <find>]</find>
+      <find>用户名已经存在</find>
+      <find>psd</find>
+      <find>mimes</find>
+      <find>./img</find>
+      <find>__MODULE__/Public/img</find>
+      <find>css</find>
+      <find>产品中心</find>
+      <find>subName</find>
+      <find>getSubPath</find>
+      <find>order</find>
     </findStrings>
     <replaceStrings>
       <replace>__MODULE__/Public/css/</replace>
@@ -125,6 +352,15 @@
       <replace>__MODULE__/Public/</replace>
       <replace>$v.</replace>
       <replace>.</replace>
+      <replace>HOME</replace>
+      <replace>Home</replace>
+      <replace>img</replace>
+      <replace>{$Think.const.HOME_IMG_URL}</replace>
+      <replace>{$errorInfo.user_name}</replace>
+      <replace>{$Think.const.HOME_CSS_URL}</replace>
+      <replace>{$Think.const.ADMIN_CSS_URL}</replace>
+      <replace>psw</replace>
+      <replace>{$Think.const.ADMIN_IMG_URL}</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -137,19 +373,35 @@
         <option value="$PROJECT_DIR$/shop/Admin/Controller/IndexController.class.php" />
         <option value="$PROJECT_DIR$/shop/Admin/Controller/DefaultController.class.php" />
         <option value="$PROJECT_DIR$/shop/Admin/Controller/ProductController.php" />
-        <option value="$PROJECT_DIR$/shop/Admin/Controller/ManagerController.class.php" />
-        <option value="$PROJECT_DIR$/shop/Admin/View/Manager/login.html" />
         <option value="$PROJECT_DIR$/shop/Admin/Model/Product.php" />
-        <option value="$PROJECT_DIR$/shop/Common/Conf/config.php" />
         <option value="$PROJECT_DIR$/shop/Admin/View/Product/edit.html" />
-        <option value="$PROJECT_DIR$/shop/Admin/View/Product/add.html" />
-        <option value="$PROJECT_DIR$/shop/index.php" />
         <option value="$PROJECT_DIR$/shop/Admin/Tools/ArrayStr.php" />
         <option value="$PROJECT_DIR$/shop/Tools/ArrayStr.php" />
-        <option value="$PROJECT_DIR$/shop/Tools/ArrayStr.class.php" />
         <option value="$PROJECT_DIR$/shop/Admin/Public/js/common.js" />
-        <option value="$PROJECT_DIR$/shop/Admin/View/Product/index.html" />
+        <option value="$PROJECT_DIR$/ThinkPHP/Library/Think/Verify.class.php" />
+        <option value="$PROJECT_DIR$/shop/Runtime/Cache/Admin/4a91eafc40e83a34b41ec6cf2e8bb3a9.php" />
+        <option value="$PROJECT_DIR$/shop/Admin/Model/Admins.php" />
+        <option value="$PROJECT_DIR$/shop/Home/Public/css/style.css" />
+        <option value="$PROJECT_DIR$/shop/index.php" />
+        <option value="$PROJECT_DIR$/shop/Home/Model/User.php" />
+        <option value="$PROJECT_DIR$/shop/Home/Model/UserModel.php" />
+        <option value="$PROJECT_DIR$/shop/Admin/Model/ProductModel.class.php" />
+        <option value="$PROJECT_DIR$/shop/Tools/ArrayStr.class.php" />
+        <option value="$PROJECT_DIR$/shop/Home/View/User/login.html" />
+        <option value="$PROJECT_DIR$/shop/Home/Model/UserModel.class.php" />
+        <option value="$PROJECT_DIR$/shop/Home/Controller/UserController.class.php" />
+        <option value="$PROJECT_DIR$/shop/Home/View/User/register.html" />
+        <option value="$PROJECT_DIR$/shop/Admin/View/Manager/register.html" />
+        <option value="$PROJECT_DIR$/shop/Admin/Model/AdminsModel.class.php" />
+        <option value="$PROJECT_DIR$/shop/Admin/View/Manager/login.html" />
+        <option value="$PROJECT_DIR$/shop/Admin/Controller/ManagerController.class.php" />
+        <option value="$PROJECT_DIR$/shop/Common/Conf/config.php" />
+        <option value="$PROJECT_DIR$/shop/Admin/View/Default/head.html" />
+        <option value="$PROJECT_DIR$/shop/Admin/View/Default/right.html" />
+        <option value="$PROJECT_DIR$/shop/Admin/View/Default/left.html" />
+        <option value="$PROJECT_DIR$/shop/Admin/View/Product/add.html" />
         <option value="$PROJECT_DIR$/shop/Admin/Controller/ProductController.class.php" />
+        <option value="$PROJECT_DIR$/shop/Admin/View/Product/index.html" />
       </list>
     </option>
   </component>
@@ -163,7 +415,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
-    <option name="width" value="1932" />
+    <option name="width" value="1938" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -201,6 +453,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -214,6 +467,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkPHP" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Upload" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Product" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -262,28 +537,9 @@
               <option name="myItemId" value="ThinkPHP" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkPHP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,7 +549,15 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\www\shop\ThinkPHP\shop\Admin" />
+      <recent name="E:\www\shop\ThinkPHP\shop\Home\Public\js" />
+      <recent name="E:\www\shop\ThinkPHP\shop\Home\Public\img" />
+      <recent name="E:\www\shop\ThinkPHP\shop\Home\Public\css" />
+      <recent name="E:\www\shop\ThinkPHP\shop\Home\View\User" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\www\shop\ThinkPHP\shop\Upload" />
       <recent name="E:\www\shop\ThinkPHP\shop" />
     </key>
   </component>
@@ -358,6 +622,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="630eeea4-e420-4abb-92d8-0658426aa66c" name="Default" comment="" />
@@ -366,7 +633,8 @@
       <option name="presentableId" value="Default" />
       <updated>1494255541511</updated>
       <workItem from="1494255548528" duration="7772000" />
-      <workItem from="1494434083750" duration="26605000" />
+      <workItem from="1494434083750" duration="26723000" />
+      <workItem from="1494727019266" duration="38893000" />
     </task>
     <task id="LOCAL-00001" summary="-------初始工作--------------">
       <created>1494255635838</created>
@@ -407,7 +675,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34377000" />
+    <option name="totallyTimeSpent" value="73388000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -419,16 +687,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1932" height="1050" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17542918" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1513369" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994455" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48933783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25053647" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13101605" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -437,9 +704,29 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48933783" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1513369" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994455" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13101605" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -477,43 +764,17 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shop/Admin/Controller/CommonController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/Admin/Controller/ProductController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/Admin/Model/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#93#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop/Admin/View/Product/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#span#1;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#form#0;n#span#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#1;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#span#1;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#select#0;n#form#0;n#span#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -532,9 +793,6 @@
           <caret line="60" column="42" lean-forward="false" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#span#1;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -548,70 +806,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop/Admin/Controller/IndexController.class.php" />
-    <entry file="file://$PROJECT_DIR$/shop/Admin/View/Manager/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="94" lean-forward="false" selection-start-line="45" selection-start-column="72" selection-end-line="45" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/Home/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="196" lean-forward="false" selection-start-line="5" selection-start-column="147" selection-end-line="5" selection-end-column="196" />
-          <folding>
-            <marker date="1494165479116" expanded="true" signature="446:465" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Mode/Lite/Controller.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="222" column="44" lean-forward="false" selection-start-line="222" selection-start-column="37" selection-end-line="222" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/Admin/Conf/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Mode/Lite/Model.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="292" column="20" lean-forward="false" selection-start-line="292" selection-start-column="20" selection-end-line="292" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/Admin/Model/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="119" lean-forward="false" selection-start-line="12" selection-start-column="119" selection-end-line="12" selection-end-column="119" />
-          <folding>
-            <element signature="e#7#93#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/Common/Conf/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkPHP/Conf/convention.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="715">
           <caret line="139" column="44" lean-forward="false" selection-start-line="139" selection-start-column="33" selection-end-line="139" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -631,74 +829,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop/Admin/Controller/ManagerController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/Admin/Controller/DefaultController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Model.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="1802" column="71" lean-forward="false" selection-start-line="1802" selection-start-column="71" selection-end-line="1802" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/Admin/View/Product/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="79" lean-forward="false" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop/Admin/View/Product/edit.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="22" column="58" lean-forward="false" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#1;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#span#1;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/Admin/Controller/CommonController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/Tools/ArrayStr.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -706,7 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="27" column="73" lean-forward="false" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -720,26 +853,422 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop/Admin/View/Product/index.html">
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Mode/Api/App.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="62" column="84" lean-forward="false" selection-start-line="62" selection-start-column="84" selection-end-line="62" selection-end-column="84" />
+        <state relative-caret-position="255">
+          <caret line="23" column="40" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Runtime/Cache/Admin/4a91eafc40e83a34b41ec6cf2e8bb3a9.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="38" column="131" lean-forward="false" selection-start-line="38" selection-start-column="118" selection-end-line="38" selection-end-column="131" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Home/Public/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <marker date="1349526908734" expanded="true" signature="14008:14217" ph="..." />
+            <marker date="1349526908734" expanded="true" signature="17594:17663" ph="..." />
+            <marker date="1349526908734" expanded="true" signature="17690:17835" ph="..." />
+            <marker date="1349526908734" expanded="true" signature="17962:18066" ph="..." />
+            <marker date="1349526908734" expanded="true" signature="18140:18182" ph="..." />
+            <marker date="1349526908734" expanded="true" signature="18280:18315" ph="..." />
+            <marker date="1349526908734" expanded="true" signature="22920:22951" ph="..." />
+            <marker date="1349526908734" expanded="true" signature="23074:23101" ph="..." />
+            <marker date="1349526908734" expanded="true" signature="23114:23168" ph="..." />
+            <marker date="1349526908734" expanded="true" signature="23440:23457" ph="..." />
+            <marker date="1349526908734" expanded="true" signature="23888:23905" ph="..." />
+            <marker date="1349526908734" expanded="true" signature="24526:24543" ph="..." />
+            <marker date="1349526908734" expanded="true" signature="25128:25134" ph=" " />
+            <marker date="1349526908734" expanded="true" signature="25134:25140" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Home/Public/js/action.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Home/Public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1881">
+          <caret line="697" column="0" lean-forward="true" selection-start-line="697" selection-start-column="0" selection-end-line="697" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Home/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Home/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="196" lean-forward="false" selection-start-line="5" selection-start-column="147" selection-end-line="5" selection-end-column="196" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Mode/Lite/Controller.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="53" column="23" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Admin/Controller/CommonController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Admin/Model/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/password.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="105" column="9" lean-forward="false" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Tools/ArrayStr.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Verify.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3792">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Home/View/User/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="114" column="106" lean-forward="false" selection-start-line="114" selection-start-column="106" selection-end-line="114" selection-end-column="106" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#978#984#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#3424#3428#1" expanded="true" />
+            <element signature="e#5397#5403#1" expanded="true" />
+            <element signature="e#5825#5831#0" expanded="true" />
+            <element signature="e#5831#5837#0" expanded="true" />
+            <element signature="e#5837#5843#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Home/Model/UserModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Admin/Model/ProductModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Home/View/User/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1209">
+          <caret line="212" column="57" lean-forward="true" selection-start-line="212" selection-start-column="57" selection-end-line="212" selection-end-column="80" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#905#911#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2994#2998#1" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#1;n#tr#4;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#1;n#tr#5;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7191#7197#0" expanded="true" />
+            <element signature="e#7393#7399#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#1;n#tr#7;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#1;n#tr#7;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#9329#9335#0" expanded="true" />
+            <element signature="e#9594#9600#0" expanded="true" />
+            <element signature="e#9859#9865#0" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#td#1;n#tr#8;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#1;n#tr#11;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#11832#11838#1" expanded="true" />
+            <element signature="e#12127#12133#1" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Admin/Model/AdminsModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Home/Controller/UserController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="38" column="20" lean-forward="false" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+          <folding>
+            <element signature="e#125#150#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Model.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="1735" column="26" lean-forward="false" selection-start-line="1735" selection-start-column="20" selection-end-line="1735" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Admin/Controller/DefaultController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Admin/View/Manager/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="39" column="142" lean-forward="false" selection-start-line="39" selection-start-column="142" selection-end-line="39" selection-end-column="142" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#li#1;n#ul#0;n#form#0;n#dd#1;n#dl#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#ul#2;n#div#0;n#li#1;n#ul#0;n#form#0;n#dd#1;n#dl#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Admin/View/Manager/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="90" column="79" lean-forward="true" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="79" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#td#1;n#tr#5;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Admin/View/Default/right.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="72" lean-forward="false" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
+          <folding>
+            <element signature="e#1018#1024#1" expanded="false" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#td#2;n#tr#0;n#table#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Admin/View/Default/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Common/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Admin/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Admin/View/Default/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Admin/View/Default/left.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="110" column="47" lean-forward="false" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#1;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#table#2;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#3;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#table#4;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#5;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#table#6;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#7;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#table#8;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#9;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#table#10;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#11;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#table#12;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#13;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#table#14;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#15;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#table#16;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Admin/Controller/ManagerController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+          <folding>
+            <element signature="e#124#152#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Admin/View/Product/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#span#1;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#form#0;n#span#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Upload.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345">
+          <caret line="188" column="52" lean-forward="false" selection-start-line="188" selection-start-column="48" selection-end-line="188" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Image.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="91" column="24" lean-forward="false" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Controller.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="244" column="44" lean-forward="false" selection-start-line="244" selection-start-column="37" selection-end-line="244" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Mode/Lite/Model.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-651">
+          <caret line="54" column="57" lean-forward="false" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Admin/View/Product/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop/Admin/Controller/ProductController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="78" column="40" lean-forward="true" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="-323">
+          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <folding>
+            <element signature="e#124#140#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -37,4 +37,5 @@ class ArrayStr
     public static function array_filter_repeat(array $arr){
         return array_flip(array_flip($arr));
     }
+
 }
