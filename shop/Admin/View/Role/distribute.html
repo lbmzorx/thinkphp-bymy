@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+    <title>添加商品</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <link href="{$Think.ADMIN_CSS_URL}/mine.css" type="text/css" rel="stylesheet">
+    <link href="{$Think.ADMIN_CSS_URL}/auth.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+<div class="div_head" style="overflow: auto;">
+    <span>
+        <span style="float:left">当前位置是：权限管理-》分配权限({$role_info.name})</span>
+        <span style="float:right;margin-right: 8px;font-weight: bold">
+             <a style="text-decoration: none" href="__CONTROLLER__/showlist">【返回】</a>
+        </span>
+    </span>
+</div>
+<div style="font-size: 13px;margin: 10px 5px">
+    <form action="__SELF__" method="post" enctype="multipart/form-data">
+        <volist name="auth_info" id="v" key="k">
+            <if condition="$v['pid'] eq 0">
+                <hr>
+                <div class="distrb-databox">
+                    <div class="distrb-father">
+                        <if condition="in_array($v['id'],$role_auth_ids)">
+                            <input type="checkbox" checked="checked" value="{$v.id}"/>
+                            <else />
+                            <input type="checkbox" value="{$v.id}"/>
+                        </if>
+                        <label class="distrb-father-label">{$v.name}</label>
+                        <div class="distrb-father-choose">
+                            <a href="#">全选</a>
+                            <a href="#">全不选</a>
+                            <a href="#">反选</a>
+                        </div>
+                    </div>
+
+                    <div class="distrb-sub">
+                        <volist name="auth_info" id="vv">
+                            <if condition="$vv['pid']==$v['id']">
+                                <div class="distrb-sub-item">
+                                    <if condition="in_array($vv['id'],$role_auth_ids)">
+                                        <input type="checkbox" checked="checked" value="{$vv.id}"/>
+                                        <else />
+                                        <input type="checkbox" value="{$vv.id}"/>
+                                    </if>
+                                    <label>{$vv.name}</label>
+                                </div>
+                            </if>
+                        </volist>
+                    </div>
+                </div>
+            </if>
+        </volist>
+    </form>
+</div>
+</body>
+</html>

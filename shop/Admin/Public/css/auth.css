@@ -1,0 +1,8 @@
+.distrb-databox{display:block;padding-bottom:10px;padding-top: 5px; }
+
+.distrb-father{position: relative;padding-bottom: 10px;border-bottom: 1px solid #DCDBDB;}
+.distrb-father-label{font-weight: bold;}
+.distrb-father-choose{display:inline-block;position:absolute;left: 200px;}
+
+.distrb-sub{padding-left:200px; padding-top: 5px;}
+.distrb-sub-item{width: 150px;display:inline-block;}

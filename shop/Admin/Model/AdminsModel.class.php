@@ -33,11 +33,16 @@ class AdminsModel extends Model
     );  // 自动验证定义
     protected $patchValidate    =   true;   // 是否批处理验证
 
-    public function check_hobby($arg){
-        if(count($arg)<2){
-            return false;
+    public function checkpassword($name,$password){
+        if($name){
+            $checked=$this->field('id,name,password')->where(['name' =>$name])->find();
+            if(password_verify($password, $checked['password'])){
+                return $checked;
+            }
         }
-        return true;
+        return false;
     }
+
+
 
 }

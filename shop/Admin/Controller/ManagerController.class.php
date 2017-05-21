@@ -27,7 +27,9 @@ class ManagerController extends CommonController
         'seKey' => 'z-a89,？yw.BNefw,_',   // 验证码加密密钥
     ];
 
-
+/*
+ * 登录页面
+ */
     public function login()
     {
 
@@ -37,9 +39,10 @@ class ManagerController extends CommonController
             $very = $verifyImg->check($user['verifyImg']);
             if ($very) {
                 $add_user = new AdminsModel();
-                $password = $add_user->field('password')->where(['name' => $user['name']])->find();
-
-                if (password_verify($user['password'], $password['password'])) {
+                $info = $add_user->checkpassword($user['name'],$user['password']);
+                if ($info) {
+                    session('admin_id',$info['id']);
+                    session('admin_name',$info['name']);
                     $this->redirect('Default/index');
                 } else {
                     $this->assign('errorInfo', '用户名或密码错误');
@@ -51,8 +54,17 @@ class ManagerController extends CommonController
         $this->display();
     }
 
-    public
-    function register()
+    /*
+     * 退出登录
+     */
+    public function logout(){
+        session(null);
+        $this->redirect('login');
+    }
+
+
+
+    public function register()
     {
 
         $user = I('post.');
