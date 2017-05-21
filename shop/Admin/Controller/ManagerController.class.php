@@ -92,8 +92,7 @@ class ManagerController extends CommonController
     }
 
     //验证码
-    public
-    function verifyImg()
+    public function verifyImg()
     {
         $verify = new Verify($this->configImg);
         $verify->entry();

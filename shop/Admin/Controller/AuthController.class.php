@@ -8,12 +8,13 @@
 namespace Admin\Controller;
 
 
-use Admin\Model\RoleModel;
-class RoleController extends CommonController
+use Admin\Model\AuthModel;
+class AuthController extends CommonController
 {
+    public $modelName = 'auth';
     public function showlist(){
 
-        $data = D('Role')->select();
+        $data = D('auth')->order(['path'=>'ASC'])->select();
 
         //给权限更换名字
         $authName=D('auth')->field(['id','name','level'])->select();
@@ -37,26 +38,44 @@ class RoleController extends CommonController
         $this->display();
     }
 
-    public function distribute($role_id){
+    /*
+     * 增加权限
+     */
+    public function add(){
 
         $post = I('POST.');
         if (!empty($post)) {
-            $form_role_id = $post['role_id'];
-            $form_auth_id = implode(',',$post['auth_id']);
-            $auth = new RoleModel('');
-            $z = $auth->saveAuth($form_role_id,$form_auth_id);
+            $m =new AuthModel();
+            $z=$m->saveData($post);
             if($z){
-                $this->redirect('showlist',[],2,'权限分配成功');
+                $this->redirect('showlist',[],2,'增加成功');
             }else{
-                $this->redirect('distribute',['role_id'=>$form_role_id],2,'权限分配失败');
+                $this->redirect('edit',[],2,$z['msg']);
             }
-
         }
+        $auth_father = D('auth')->where(['level'=>0])->select();
+        $this->assign(['auth_father'=>$auth_father]);
+        $this->display();
+    }
+    /*
+     * 修改权限
+     */
+    public function edit($auth_id){
 
-        $role_info = D('Role')->find($role_id);
-        $auth_info = D('auth')->select();
-        $role_auth_ids = explode(',',$role_info['auth_ids']);
-        $this->assign(['auth_info'=>$auth_info,'role_info'=>$role_info,'role_auth_ids'=>$role_auth_ids,'role_id'=>$role_id]);
+        $post = I('POST.');
+        if (!empty($post)) {
+            $m =new AuthModel();
+            $z=$m->saveData($post);
+            if($z){
+                $this->redirect('showlist',[],2,'修改成功');
+            }else{
+                $this->redirect('edit',[],2,$z['msg']);
+            }
+        }
+        $data = D('auth')->select($auth_id);
+        $auth_father = D('auth')->where(['level'=>0])->select();
+
+        $this->assign(['data'=>$data,'auth_father'=>$auth_father]);
         $this->display();
     }
 

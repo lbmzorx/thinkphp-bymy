@@ -10,9 +10,9 @@
 <body>
 <div class="div_head">
             <span>
-                <span style="float: left;">当前位置是：角色管理-》角色列表</span>
+                <span style="float: left;">当前位置是：权限管理-》权限列表</span>
                 <span style="float: right; margin-right: 8px; font-weight: bold;">
-                    <a style="text-decoration: none;" href="__CONTROLLER__/add">【添加角色】</a>
+                    <a style="text-decoration: none;" href="__CONTROLLER__/add">【添加权限】</a>
                 </span>
             </span>
 </div>
@@ -32,18 +32,30 @@
     <table class="table_a" border="1" width="100%">
         <tbody><tr style="font-weight: bold;">
             <td>序号</td>
-            <td>角色名称</td>
-            <td>角色权限</td>
+            <td>权限名称</td>
+            <td>控制器</td>
+            <td>动作</td>
+            <td>全路径</td>
+            <td>等级</td>
             <td align="center">操作</td>
         </tr>
         <volist name="data" id="v">
         <tr id="product1">
             <td>{$v.id}</td>
-            <td>{$v.name}</td>
-            <td>{$v.auth_ids}</td>
             <td>
-                <a href="__CONTROLLER__/distribute/role_id/{$v.id}">分配权限</a>
-                <a href="__CONTROLLER__/edit/$role_id/{$v.id}">修改</a>
+                <for start="0" end="$v['level']">&nbsp;&nbsp;</for>
+                <if condition="$v['level'] eq 0">
+                    <b>{$v.name}</b>
+                    <else/>
+                    {$v.name}
+                </if>
+            </td>
+            <td>{$v.controller}</td>
+            <td>{$v.action}</td>
+            <td>{$v.path}</td>
+            <td>{$v.level}</td>
+            <td>
+                <a href="__CONTROLLER__/edit/$auth_id/{$v.id}">修改</a>
                 <a href="javascript:;" onclick="del('{$v.id}','__CONTROLLER__/del')">删除</a>
             </td>
         </tr>
