@@ -13,9 +13,6 @@ class DefaultController extends CommonController
     public function index(){
         return $this->display();
     }
-    public function head(){
-        return $this->display();
-    }
     public function left(){
         $admin_id = session('admin_id');
         $admin_info=D('Admins')->find($admin_id);
@@ -39,7 +36,7 @@ class DefaultController extends CommonController
 
         return $this->display();
     }
-    public function right(){
+    public function home(){
         return $this->display();
     }
 }

@@ -16,3 +16,156 @@ ERR: 非法操作:
 [ 2017-05-31T20:29:35+08:00 ] 127.0.0.1 /index.php/Admin/Default/index
 ERR: Call to undefined function url()
 
+[ 2017-05-31T20:34:24+08:00 ] 127.0.0.1 /index.php/Admin/Default/index
+ERR: Call to undefined function url()
+
+[ 2017-05-31T20:34:28+08:00 ] 127.0.0.1 /index.php/Admin/Default/form.html
+ERR: 非法操作:form
+
+[ 2017-05-31T20:34:48+08:00 ] 127.0.0.1 /index.php/Admin/Default/form.html
+ERR: 非法操作:form
+
+[ 2017-05-31T20:39:09+08:00 ] 127.0.0.1 /index.php/Admin/Default/home.html
+ERR: 非法操作:home
+
+[ 2017-05-31T20:39:32+08:00 ] 127.0.0.1 /index.php/Admin/Default/home.html
+ERR: 非法操作:home
+
+[ 2017-05-31T20:44:43+08:00 ] 127.0.0.1 /index.php/Admin/Default/home.html
+ERR: 非法操作:home
+
+[ 2017-05-31T20:46:25+08:00 ] 127.0.0.1 /index.php/Admin/Default/home.html
+ERR: 非法操作:home
+
+[ 2017-05-31T20:46:28+08:00 ] 127.0.0.1 /index.php/Admin/Default/home.html
+ERR: 非法操作:home
+
+[ 2017-05-31T20:46:31+08:00 ] 127.0.0.1 /index.php/Admin/Default/home.html
+ERR: 非法操作:home
+
+[ 2017-05-31T20:47:28+08:00 ] 127.0.0.1 /index.php/Admin/Default/home.html
+ERR: 非法操作:home
+
+[ 2017-05-31T20:48:10+08:00 ] 127.0.0.1 /index.php/Admin/Default/home.html
+ERR: 非法操作:home
+
+[ 2017-05-31T20:48:48+08:00 ] 127.0.0.1 /index.php/Admin/Default/home.html
+ERR: 非法操作:home
+
+[ 2017-05-31T20:49:10+08:00 ] 127.0.0.1 /index.php/Admin/Default/home.html
+ERR: 非法操作:home
+
+[ 2017-05-31T20:49:23+08:00 ] 127.0.0.1 /index.php/Admin/Default/home.html
+ERR: 非法操作:home
+
+[ 2017-05-31T20:49:28+08:00 ] 127.0.0.1 /index.php/Admin/Default/home.html
+ERR: 非法操作:home
+
+[ 2017-05-31T20:55:46+08:00 ] 127.0.0.1 /index.php/Admin/Default/layui/css/layui.css
+ERR: 非法操作:layui
+
+[ 2017-05-31T20:55:47+08:00 ] 127.0.0.1 /index.php/Admin/Default/css/global.css
+ERR: 非法操作:css
+
+[ 2017-05-31T20:55:47+08:00 ] 127.0.0.1 /index.php/Admin/Default/layui/layui.js
+ERR: 非法操作:layui
+
+[ 2017-05-31T20:56:15+08:00 ] 127.0.0.1 /index.php/Admin/Default/layui/css/layui.css
+ERR: 非法操作:layui
+
+[ 2017-05-31T20:56:15+08:00 ] 127.0.0.1 /index.php/Admin/Default/css/global.css
+ERR: 非法操作:css
+
+[ 2017-05-31T20:56:16+08:00 ] 127.0.0.1 /index.php/Admin/Default/layui/layui.js
+ERR: 非法操作:layui
+
+[ 2017-05-31T20:56:19+08:00 ] 127.0.0.1 /index.php/Admin/Default/layui/css/layui.css
+ERR: 非法操作:layui
+
+[ 2017-05-31T20:56:19+08:00 ] 127.0.0.1 /index.php/Admin/Default/css/global.css
+ERR: 非法操作:css
+
+[ 2017-05-31T20:56:20+08:00 ] 127.0.0.1 /index.php/Admin/Default/layui/layui.js
+ERR: 非法操作:layui
+
+[ 2017-05-31T20:57:33+08:00 ] 127.0.0.1 /index.php/Admin/Default/css/global.css
+ERR: 非法操作:css
+
+[ 2017-05-31T20:57:33+08:00 ] 127.0.0.1 /index.php/Admin/Default/layui/css/layui.css
+ERR: 非法操作:layui
+
+[ 2017-05-31T20:57:34+08:00 ] 127.0.0.1 /index.php/Admin/Default/layui/layui.js
+ERR: 非法操作:layui
+
+[ 2017-05-31T20:57:34+08:00 ] 127.0.0.1 /index.php/Admin/Default/layui/css/layui.css
+ERR: 非法操作:layui
+
+[ 2017-05-31T20:57:34+08:00 ] 127.0.0.1 /index.php/Admin/Default/css/global.css
+ERR: 非法操作:css
+
+[ 2017-05-31T20:57:35+08:00 ] 127.0.0.1 /index.php/Admin/Default/layui/layui.js
+ERR: 非法操作:layui
+
+[ 2017-05-31T20:57:57+08:00 ] 127.0.0.1 /index.php/Admin/Default/layui/css/layui.css
+ERR: 非法操作:layui
+
+[ 2017-05-31T20:57:57+08:00 ] 127.0.0.1 /index.php/Admin/Default/css/global.css
+ERR: 非法操作:css
+
+[ 2017-05-31T20:57:58+08:00 ] 127.0.0.1 /index.php/Admin/Default/layui/layui.js
+ERR: 非法操作:layui
+
+[ 2017-05-31T20:58:01+08:00 ] 127.0.0.1 /index.php/Admin/Default/layui/css/layui.css
+ERR: 非法操作:layui
+
+[ 2017-05-31T20:58:01+08:00 ] 127.0.0.1 /index.php/Admin/Default/css/global.css
+ERR: 非法操作:css
+
+[ 2017-05-31T20:58:02+08:00 ] 127.0.0.1 /index.php/Admin/Default/layui/layui.js
+ERR: 非法操作:layui
+
+[ 2017-05-31T20:58:02+08:00 ] 127.0.0.1 /index.php/Admin/Default/css/global.css
+ERR: 非法操作:css
+
+[ 2017-05-31T20:58:02+08:00 ] 127.0.0.1 /index.php/Admin/Default/layui/css/layui.css
+ERR: 非法操作:layui
+
+[ 2017-05-31T20:58:03+08:00 ] 127.0.0.1 /index.php/Admin/Default/layui/layui.js
+ERR: 非法操作:layui
+
+[ 2017-05-31T20:58:03+08:00 ] 127.0.0.1 /index.php/Admin/Default/css/global.css
+ERR: 非法操作:css
+
+[ 2017-05-31T20:58:03+08:00 ] 127.0.0.1 /index.php/Admin/Default/layui/css/layui.css
+ERR: 非法操作:layui
+
+[ 2017-05-31T20:58:05+08:00 ] 127.0.0.1 /index.php/Admin/Default/layui/layui.js
+ERR: 非法操作:layui
+
+[ 2017-05-31T21:07:36+08:00 ] 127.0.0.1 /index.php/Admin/Default/layui/css/layui.css
+ERR: 非法操作:layui
+
+[ 2017-05-31T21:07:37+08:00 ] 127.0.0.1 /index.php/Admin/Default/layui/css/layui.css
+ERR: 非法操作:layui
+
+[ 2017-05-31T21:07:37+08:00 ] 127.0.0.1 /index.php/Admin/Default/css/global.css
+ERR: 非法操作:css
+
+[ 2017-05-31T21:07:37+08:00 ] 127.0.0.1 /index.php/Admin/Default/layui/layui.js
+ERR: 非法操作:layui
+
+[ 2017-05-31T21:07:38+08:00 ] 127.0.0.1 /index.php/Admin/Default/css/global.css
+ERR: 非法操作:css
+
+[ 2017-05-31T21:07:38+08:00 ] 127.0.0.1 /index.php/Admin/Default/layui/layui.js
+ERR: 非法操作:layui
+
+[ 2017-05-31T21:09:06+08:00 ] 127.0.0.1 /index.php/Admin/Default/layui/css/layui.css
+ERR: 非法操作:layui
+
+[ 2017-05-31T21:09:06+08:00 ] 127.0.0.1 /index.php/Admin/Default/css/global.css
+ERR: 非法操作:css
+
+[ 2017-05-31T21:09:07+08:00 ] 127.0.0.1 /index.php/Admin/Default/layui/layui.js
+ERR: 非法操作:layui
+
