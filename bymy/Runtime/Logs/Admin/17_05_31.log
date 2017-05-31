@@ -1,0 +1,18 @@
+[ 2017-05-31T20:25:08+08:00 ] 127.0.0.1 /index.php/Admin/Default/index
+ERR: Call to undefined function url()
+
+[ 2017-05-31T20:25:08+08:00 ] 127.0.0.1 /index.php/Admin/Default/layui/css/layui.css
+ERR: 非法操作:layui
+
+[ 2017-05-31T20:25:09+08:00 ] 127.0.0.1 /index.php/Admin/Default/css/global.css
+ERR: 非法操作:css
+
+[ 2017-05-31T20:25:09+08:00 ] 127.0.0.1 /index.php/Admin/Default/layui/layui.js
+ERR: 非法操作:layui
+
+[ 2017-05-31T20:29:29+08:00 ] 127.0.0.1 /index.php/Admin/Default/%3C!DOCTYPE%20html%20PUBLIC
+ERR: 非法操作:
+
+[ 2017-05-31T20:29:35+08:00 ] 127.0.0.1 /index.php/Admin/Default/index
+ERR: Call to undefined function url()
+
