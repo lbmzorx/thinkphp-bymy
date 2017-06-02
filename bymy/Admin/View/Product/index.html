@@ -2,62 +2,117 @@
 <html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-
     <title>商品信息</title>
-
-    <link href="{$Think.const.ADMIN_CSS_URL}/mine.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="{$Think.ADMIN_LAYUI_CSS}/layui.css">
+    <link rel="stylesheet" href="{$Think.ADMIN_CSS_URL}/global.css">
+    <link rel="stylesheet" href="{$Think.ADMIN_CSS_URL}/common.css">
 </head>
-<body>
-<div class="div_head">
-            <span>
-                <span style="float: left;">当前位置是：商品管理-》商品列表</span>
-                <span style="float: right; margin-right: 8px; font-weight: bold;">
-                    <a style="text-decoration: none;" href="__CONTROLLER__/add">【添加商品】</a>
-                </span>
-            </span>
+<body >
+<div class="body-all">
+<blockquote class="layui-elem-quote layui-quote-nm">
+    <p>商品管理</p>
+</blockquote>
+    <div style="padding: 15px">
+        <div class="layui-tab">
+            <ul class="layui-tab-title layui-tab-brief">
+                <li class="layui-this">商品信息</li>
+                <li>添加商品</li>
+                <li>修改商品</li>
+                <li>删除商品</li>
+            </ul>
+            <div class="layui-tab-content">
+                <div class="layui-tab-item layui-show">
+                    <form class="layui-form" action="">
+                        <div class="layui-form-item">
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">短输入框</label>
+                                <div class="layui-input-inline">
+                                    <input name="username" lay-verify="required" placeholder="请输入" autocomplete="off"
+                                           class="layui-input" type="text">
+                                </div>
+                                <label class="layui-form-label">行内选择框</label>
+                                <div class="layui-input-inline">
+                                    <select name="quiz1">
+                                        <option value="">请选择省</option>
+                                        <option value="你最喜欢的老师">福建省</option>
+                                    </select>
+                                </div>
+                                <div class="layui-input-inline">
+                                    <select name="quiz2">
+                                        <option value="">请选择市</option>
+                                        <option value="温州">台州</option>
+                                        <option value="温州">绍兴</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="layui-inline">
+                                <label class="layui-form-label">范围</label>
+                                <div class="layui-input-inline input-width-small">
+                                    <input type="text" name="price_min" placeholder="￥" autocomplete="off"
+                                           class="layui-input">
+                                </div>
+
+                                <div class="layui-input-inline input-width-small">
+                                    <input type="text" name="price_max" placeholder="￥" autocomplete="off"
+                                           class="layui-input">
+                                </div>
+                            </div>
+                            <div class="layui-input-block" style="float: right">
+                                <button class="layui-btn layui-btn-normal" lay-submit lay-filter="formDemo">查询</button>
+                                <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="layui-form-item">
+                        <a class="layui-btn " href="__CONTROLLER__/add"><i class="layui-icon">&#xe608;</i>添加商品</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-form">
+            <table class="layui-table" lay-even="" lay-skin="row">
+                <colgroup>
+                    <col width="150">
+                    <col width="200">
+                    <col>
+                </colgroup>
+                <thead>
+                <tr>
+                    <th><input name="" lay-skin="primary" lay-filter="allChoose" type="checkbox"></th>
+                    <th>序号</th>
+                    <th>商品名称</th>
+                    <th>库存</th>
+                    <th>价格</th>
+                    <th>图片</th>
+                    <th>缩略图</th>
+                    <th>品牌</th>
+                    <th>创建时间</th>
+                    <th align="center">操作</th>
+                    <th align="center">操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <volist name="data" id="v">
+                    <tr>
+                        <td><input name="" lay-skin="primary" type="checkbox"></td>
+                        <td>{$v.id}</td>
+                        <td><a href="#">{$v.name}</a></td>
+                        <td>{$v.num}</td>
+                        <td>{$v.price}</td>
+                        <td><img src="/{$v.image}" height="60" width="60"></td>
+                        <td><img src="/{$v.thumb}" height="40" width="40"></td>
+                        <td>{$v.brand}</td>
+                        <td>{$v.time|strtotime='Y-m-d h:i:s',###}</td>
+                        <td><a href="__CONTROLLER__/edit/id/{$v.id}">修改</a></td>
+                        <td><a href="javascript:;" onclick="del({$v.id},'__CONTROLLER__/del')">删除</a></td>
+                    </tr>
+                </volist>
+                </tbody>
+            </table>
+        </div>
+    </div>
 </div>
-<div></div>
-<div class="div_search">
-            <span>
-                <form action="#" method="get">
-                    品牌<select name="s_product_mark" style="width: 100px;">
-                        <option selected="selected" value="0">请选择</option>
-                        <option value="1">苹果apple</option>
-                    </select>
-                    <input value="查询" type="submit" />
-                </form>
-            </span>
-</div>
-<div style="font-size: 13px; margin: 10px 5px;">
-    <table class="table_a" border="1" width="100%">
-        <tbody><tr style="font-weight: bold;">
-            <td>序号</td>
-            <td>商品名称</td>
-            <td>库存</td>
-            <td>价格</td>
-            <td>图片</td>
-            <td>缩略图</td>
-            <td>品牌</td>
-            <td>创建时间</td>
-            <td align="center">操作</td>
-        </tr>
-        <volist name="data" id="v">
-        <tr id="product1">
-            <td>{$v.id}</td>
-            <td><a href="#">{$v.name}</a></td>
-            <td>{$v.num}</td>
-            <td>{$v.price}</td>
-            <td><img src="/{$v.image}" height="60" width="60"></td>
-            <td><img src="/{$v.thumb}" height="40" width="40"></td>
-            <td>{$v.brand}</td>
-            <td>{$v.time|strtotime='Y-m-d h:i:s',###}</td>
-            <td><a href="__CONTROLLER__/edit/id/{$v.id}">修改</a></td>
-            <td><a href="javascript:;" onclick="del({$v.id},'__CONTROLLER__/del')">删除</a></td>
-        </tr>
-        </volist>>
-        </tbody>
-    </table>
-</div>
+
 <script type="text/javascript" src="{$Think.const.ADMIN_JQUERY_JS}/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="{$Think.const.ADMIN_LAYUI_JS}/layui.js"></script>
 <script type="text/javascript" src="{$Think.const.ADMIN_JS_URL}/common.js"></script>

@@ -1,0 +1,10 @@
+/*input框的宽度*/
+.input-width-tiny{width: 60px;}
+.input-width-small{width: 100px;}
+.input-width-midle{width: 200px;}
+.input-width-midler{width: 300px;}
+.input-width-big{width: 600px;}
+
+/*头部样式*/
+.body-all{ background-color: #FFFFFF; }
+blockquote .elem-quote{ background-color: #FFFFFF;border-bottom: solid 1px #F3F3F4; }

@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 299652 */
+    src: url('//at.alicdn.com/t/font_2jd7yilic8oajor.eot');
+    src: url('//at.alicdn.com/t/font_2jd7yilic8oajor.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_2jd7yilic8oajor.woff') format('woff'),
+    url('//at.alicdn.com/t/font_2jd7yilic8oajor.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_2jd7yilic8oajor.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:14px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.iconlayui{
+    font-size: 14px;font-style:normal;
+}
+.icon-nav{color: #18a689;font-size: 20px;font-weight: normal;}
+.icon-nav2{color:#18a689;font-size: 20px;font-weight: normal;}
+.icon-rz{color: #B2B2B2;font-size: 20px;font-weight: normal;}
+.icon-item-icom{color: #FFCC00;font-size: 60px;font-weight: normal;}
+.icon-yy{color: #01AAED;font-size: 24px;font-weight: normal;}
+.icon-ok{color: #00C90D;font-size: 30px;margin-right: 10px;font-weight: normal;}
+.icon-wenhao{color: #FFAD33;font-size: 30px;font-weight: normal;}
+.icon-break{color: #BBBBBB;font-size: 20px;font-weight: normal;}
+
+.icon-dui{color: #00C90D;font-size: 18px;margin-right: 10px;font-weight: normal;}
+.icon-cuo{color: #FF0033;font-size: 18px;margin-right: 10px;font-weight: normal;}
+.icon-gantan{color: #FF9900;font-size: 18px;margin-right: 10px;font-weight: normal;}
+
+.icon-small{font-size: 16px;}
+.icon-middle{font-size: 28px;}
+.icon-big{font-size: 36px;}
+.icon-blue{color: #00ccff;}
+.icon-green{color: #00C1B3;}
+.icon-yellow{color: #FFB400;}

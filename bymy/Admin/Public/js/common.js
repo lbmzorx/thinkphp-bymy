@@ -9,3 +9,8 @@ layui.use('form', function(){
         form.render('checkbox');
     });
 });
+layui.upload({
+    url: ''
+    ,ext: 'jpg|png|gif' //那么，就只会支持这三种格式的上传。注意是用|分割。
+    ,success: function(res, input){}
+});        
