@@ -35,8 +35,15 @@ class ProductController extends CommonController
      */
     public function index()
     {
-
+        $get = I('get.');
         $product = D('Product');
+//        var_dump($get);
+        $condition=['id'=>'=','name'=>'like','cate_id'=>'=','price'=>'between','number'=>'between','brand'=>'like'];
+//        $a = parent::whereCondition($condition,$get);
+//        $product->where($a);
+        $product=parent::whereSearch($product,$condition,$get);
+
+        var_dump($product->_sql());
         $data = $product->order('id desc')->select();
 
         $this->assign('data', $data);

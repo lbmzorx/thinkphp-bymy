@@ -38,16 +38,28 @@ class ArrayStr
         return array_flip(array_flip($arr));
     }
 
-    /*
- * 替换邮箱函数，将邮件名称的替换为*或自定义
- * @return返回替换后的邮件地址
- * 例子 **@23.Welcome
- * 替换为23f****243@23.Welcome
- *  @$start替换的起始位置,默认为第1位开始
- * @$len替换长度，默认为4位
- * @$left从左边（true默认）开始，还是从右边（false）开始替换
- * @$char替换符号，默认为'*'
- */
+    /**
+     * 替换邮箱函数，将邮件名称的替换为*或自定义
+     * 返回替换的右键名称
+     * 例子：
+     * 用户邮箱1234567890@123.com
+     * $str='1234567890@123.com';
+     * $return=1****67890@123.com
+     * case1:echo replaceEmail($str,1,11,'*',true);     返回：1*********@123.com
+     * case2:echo replaceEmail($str,1,11,'-',false);    返回：---------0@123.com
+     * case3:echo replaceEmail($str,11,11,'/',false);   返回：//////////@123.com
+     * case4:echo replaceEmail($str,5,10,'》',true);    返回：12345》》》》》@123.com
+     * case5:echo replaceEmail($str,5,11,'+',false);    返回：+++++67890@123.com
+     * case6:echo replaceEmail($str,11,2,'%',true);     返回：%%34567890@123.com
+     * case7:echo replaceEmail($str,7,6,'8',false);     返回：8884567890@123.com
+     * case8:echo replaceEmail($str,7,6,'w',true);      返回：1234567www@123.com
+     * @param $email
+     * @param int $start 开始替换的位置，默认为1
+     * @param int $len 替换长度，默认为4
+     * @param string $char 替换符号，默认为'*'
+     * @param bool $left 替换顺序，默认为从左边
+     * @return string
+     */
     function replaceEmail($email, $start = 1, $len = 4, $char = '*', $left = true)
     {
         $emailNameLen = strpos($email, '@');
@@ -60,7 +72,6 @@ class ArrayStr
                 $len = $emailNameLen;
             } else {
                 if ($left) {
-                    $start = $start;
                     $len = $emailNameLen - $start;
                 } else {
                     $len = $emailNameLen - $start;

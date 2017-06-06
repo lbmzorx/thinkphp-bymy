@@ -1,3 +1,6 @@
+<?php
+ $request = I('get.');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,22 +18,27 @@
     <div style="padding: 15px">
         <div class="layui-tab">
             <ul class="layui-tab-title layui-tab-brief">
-                <li class="layui-this">商品信息</li>
-                <li>添加商品</li>
+                <li class="layui-this"><a href="__SELF__">商品信息</a></li>
+                <li><a href="__CONTROLLER__/add" >添加商品</a></li>
                 <li>修改商品</li>
                 <li>删除商品</li>
             </ul>
             <div class="layui-tab-content">
                 <div class="layui-tab-item layui-show">
-                    <form class="layui-form" action="">
+                    <form class="layui-form" action="__SELF__">
                         <div class="layui-form-item">
                             <div class="layui-form-item">
-                                <label class="layui-form-label">短输入框</label>
+                                <label class="layui-form-label">搜索序号</label>
                                 <div class="layui-input-inline">
-                                    <input name="username" lay-verify="required" placeholder="请输入" autocomplete="off"
-                                           class="layui-input" type="text">
+                                    <input name="id" placeholder="请输入序号" autocomplete="off"
+                                           class="layui-input" type="text" value="<?php if($request['id']) echo $request['id']?>" >
                                 </div>
-                                <label class="layui-form-label">行内选择框</label>
+                                <label class="layui-form-label">搜索名称</label>
+                                <div class="layui-input-inline">
+                                    <input name="name"  placeholder="请输入搜索名称" autocomplete="off" class="layui-input"
+                                           type="text"  value="<?php if($request['name']) echo $request['name']?>" >
+                                </div>
+                                <label class="layui-form-label">搜索名称</label>
                                 <div class="layui-input-inline">
                                     <select name="quiz1">
                                         <option value="">请选择省</option>
@@ -46,15 +54,27 @@
                                 </div>
                             </div>
                             <div class="layui-inline">
-                                <label class="layui-form-label">范围</label>
-                                <div class="layui-input-inline input-width-small">
-                                    <input type="text" name="price_min" placeholder="￥" autocomplete="off"
-                                           class="layui-input">
+                                <label class="layui-form-label">价格范围</label>
+                                <div class="layui-input-inline ">
+                                    <input type="text" name="price[0]" placeholder="￥" autocomplete="off" class="layui-input"
+                                            value="<?php if($request['price'][0]) echo $request['price'][0]?>" >
+                                </div>
+
+                                <div class="layui-input-inline" >
+                                    <input type="text" name="price[1]" placeholder="￥" autocomplete="off" class="layui-input"
+                                           value="<?php if($request['price'][1]) echo $request['price'][1]?>" >
+                                </div>
+                            </div>
+                            <div class="layui-inline">
+                                <label class="layui-form-label">数量范围</label>
+                                <div class="layui-input-inline" >
+                                    <input type="text" name="number[0]" placeholder="0" autocomplete="off" class="layui-input"
+                                           value="<?php if($request['num'][0]) echo $request['num'][0]?>" >
                                 </div>
 
                                 <div class="layui-input-inline input-width-small">
-                                    <input type="text" name="price_max" placeholder="￥" autocomplete="off"
-                                           class="layui-input">
+                                    <input type="text" name="number[1]" placeholder="max" autocomplete="off" class="layui-input"
+                                          value="<?php if($request['num'][1]) echo $request['num'][1]?>" >
                                 </div>
                             </div>
                             <div class="layui-input-block" style="float: right">
