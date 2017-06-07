@@ -1,0 +1,7 @@
+.page-container{ text-align: center; }
+.page-total{ display: inline-block;float:left; }
+.page-total p{ margin: 10px;height: 30px;line-height: 30px; }
+.page-content{ display: inline-block;margin: 0 auto; }
+.page-size { display: inline-block;float: right;margin: 10px;height: 30px;line-height: 30px; }
+.page-sizi-input{ width: 30px;padding: 0 5px;height: 30px;}
+.page-size a{ border:1px solid #E2E2E2;padding:7px;height: 30px;border-radius: 2px;line-height: 30px;vertical-align: top; }

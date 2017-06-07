@@ -281,12 +281,38 @@ class Pagination extends Object
         return isset($params[$name]) && is_scalar($params[$name]) ? $params[$name] : $defaultValue;
     }
 
+    /**
+     * Return the value of first number of record in current page
+     * @return int
+     */
+    public function getFirstRecord(){
+       return ($this->getPage())*($this->getPageSize());
+    }
+
+    /**
+     * Return the value fo last number of record in current page
+     * @return int
+     */
+    public function getLastRecord(){
+        if (($this->getOffset() + 1 + $this->getPageSize()) > $this->totalCount) {
+            return $this->totalCount;
+        } else {
+            return $this->getOffset() + 1 + $this->getPageSize();
+        }
+    }
+
+    /**
+     * return attribute of Paginition
+     * @return array
+     */
     public function getPropertyArray(){
         return [
             'pageSize'=>$this->getPageSize(),
             'totalCount'=>$this->totalCount,
             'pageCount'=>$this->getPageCount(),
-            'pageCurr'=>$this->getPage(),
+            'pageCurr'=>$this->getPage()+1,
+            'firstRecord'=>$this->getFirstRecord(),
+            'lastRecord'=>$this->getLastRecord(),
             'offset'=>$this->getOffset(),
             'limit'=>$this->getLimit(),
         ];

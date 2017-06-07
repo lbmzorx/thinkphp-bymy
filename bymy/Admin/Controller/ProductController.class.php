@@ -45,14 +45,13 @@ class ProductController extends CommonController
 
         $count = $queryCount->count();
 
-        $pageSize=$get['pageSize']?$get['pageSize']:2;
-        $Page = new \Think\Page($count,$pageSize);
+        $page = new Pagination(['totalCount'=>$count]);
+        $page->pageSize=I('get.pageSize')?I('get.pageSize'):2;
+//        $show = $Page->show();// 分页显示输出
 
-        $show = $Page->show();// 分页显示输出
-
-        $data=$query->limit($Page->firstRow,$Page->listRows)->select();
-
-        $this->assign('page',$show);// 赋值分页输出
+        $data=$query->limit($page->getOffset(),$page->getLimit())->select();
+        $this->assign('object',$page);
+        $this->assign('page',$page->getPropertyArray());// 赋值分页输出
         // 赋值分页输出
         $this->assign('data', $data);
         $this->display();

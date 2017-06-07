@@ -1,0 +1,38 @@
+<div class="page-container" >
+    <div class="page-total" >
+        <p>当前第<span>{$page.firstRecord}</span>~<span>{$page.lastRecord}</span>条，总共<span>{$page.totalCount}</span>条</p>
+    </div>
+    <div id="page"  class="page-content" >
+    </div>
+    <div class="page-size" >
+        <span>显示</span>
+        <input name="page_size" class="page-sizi-input" type="text" placeholder="10" value="<?=$page->pageSize?>" />
+        <span>条/页</span>
+        <a href="javascript:void(0)" onclick="set_page()" >确定</a>
+    </div>
+</div>
+<script type="text/javascript">
+    layui.use(['laypage', 'layer'], function () {
+        var laypage = layui.laypage;
+        laypage({
+            cont: 'page',
+            skip: true,
+            skin: '#1E9FFF',
+            pages: {$page['pageCount']},
+            curr: {$page['pageCurr']},
+            first: 1,
+            last: {$page['lastRecord']},
+            prev: '<em><</em>',
+            next: '<em>></em>',
+            jump: function (obj, first) {
+                if (!first) {
+                    window.location.href = '?&pagSize=<?=$page->pageSize?>&page=' + obj.curr;
+                }
+            }
+        });
+    });
+
+    function set_page() {
+        location.href="?&pageSize="+$('#page_size').val()
+    }
+</script>
