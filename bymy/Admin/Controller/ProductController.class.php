@@ -11,6 +11,7 @@ namespace Admin\Controller;
 use Think\Image;
 use Think\Upload;
 use Tools\ArrayStr;
+use Tools\Pagination;
 
 class ProductController extends CommonController
 {
@@ -36,16 +37,23 @@ class ProductController extends CommonController
     public function index()
     {
         $get = I('get.');
-        $product = D('Product');
-//        var_dump($get);
+        $query = D('Product');
         $condition=['id'=>'=','name'=>'like','cate_id'=>'=','price'=>'between','number'=>'between','brand'=>'like'];
-//        $a = parent::whereCondition($condition,$get);
-//        $product->where($a);
-        $product=parent::whereSearch($product,$condition,$get);
+        $query=parent::whereSearch($query,$condition,$get);
+        $query =$query ->order('id desc');
+        $queryCount =clone $query;
 
-        var_dump($product->_sql());
-        $data = $product->order('id desc')->select();
+        $count = $queryCount->count();
 
+        $pageSize=$get['pageSize']?$get['pageSize']:2;
+        $Page = new \Think\Page($count,$pageSize);
+
+        $show = $Page->show();// 分页显示输出
+
+        $data=$query->limit($Page->firstRow,$Page->listRows)->select();
+
+        $this->assign('page',$show);// 赋值分页输出
+        // 赋值分页输出
         $this->assign('data', $data);
         $this->display();
     }

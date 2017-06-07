@@ -9,7 +9,7 @@
 namespace Tools;
 
 
-class Page
+class PageChuanZi
 {
     private $total; //数据表中总记录数量
     private $listRows; //每页显示的记录数量
