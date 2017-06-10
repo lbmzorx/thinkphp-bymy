@@ -14,9 +14,14 @@ define('APP_DEBUG',True);           //调试模式 -开
 define('ADMIN_CSS_URL','/Admin/Public/css');
 define('ADMIN_JS_URL','/Admin/Public/js');
 define('ADMIN_IMG_URL','/Admin/Public/img');
+define('ADMIN_JQUERY_JS','/Admin/Public/js');
+
+/*layui前端框架*/
 define('ADMIN_LAYUI_JS','/Admin/Public/layui');
 define('ADMIN_LAYUI_CSS','/Admin/Public/layui/css');
-define('ADMIN_JQUERY_JS','/Admin/Public/js');
+define('ADMIN_LAYUI_MODULE_JS','/Admin/Public/layui/lay/modules');
+define('ADMIN_LAYUI_ALL_JS','/Admin/Public/layui/lay/dest/layui.all.js');
+define('ADMIN_LAYER_JS','/Admin/Public/plug/layer-v3.0.3/layer/layer.js');
 
 /*
  * 前台资源文件

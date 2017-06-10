@@ -20,12 +20,12 @@ class ProductController extends CommonController
      * 文件上传配置
      */
     public $configUplaod = [
-        'mimes' => array('image/png'), //允许上传的文件MiMe类型
-        'exts' => array('jpg','png','gif'), //允许上传的文件后缀
+        'mimes' => array('image/png','image/jpeg',), //允许上传的文件MiMe类型
+        'exts' => array('jpg','png','gif','jpeg'), //允许上传的文件后缀
 //        'autoSub' => true, //自动子目录保存文件
-//        'subName' => array('date', 'Y-m-d'), //子目录创建方式，[0]-函数名，[1]-参数，多个参数使用数组
+//        'subName' => array('date', 'md'), //子目录创建方式，[0]-函数名，[1]-参数，多个参数使用数组
         'rootPath' => 'Upload/Product/', //保存根路径
-//        'savePath' => '', //保存路径
+//        'savePath' => '',         //保存路径
 //        'saveName' => array('uniqid', ''), //上传文件命名规则，[0]-函数名，[1]-参数，多个参数使用数组
 //        'hash' => true, //是否生成hash编码
     ];
@@ -46,7 +46,7 @@ class ProductController extends CommonController
         $count = $queryCount->count();
 
         $page = new Pagination(['totalCount'=>$count]);
-        $page->pageSize=I('get.pageSize')?I('get.pageSize'):2;
+        $page->pageSize=I('get.pageSize')?I('get.pageSize'):10;
 //        $show = $Page->show();// 分页显示输出
 
         $data=$query->limit($page->getOffset(),$page->getLimit())->select();
@@ -66,9 +66,9 @@ class ProductController extends CommonController
         $product = D('Product');
         $post = I('POST.');
         if (!empty($post)) {
-
             $post['add_time'] = time();
             $img=$_FILES['img'];
+            var_dump($_FILES);
             //上传大图片
             $upload = new Upload($this->configUplaod);
             $up=$upload->uploadOne($img);
@@ -89,6 +89,8 @@ class ProductController extends CommonController
                 $this->assign(['status'=>false,'msg'=>'添加商品信息失败']) ;
             }
         }
+        $cate=D('product_cate');
+        $this->assign();
         $this->display();
     }
 
@@ -148,6 +150,8 @@ class ProductController extends CommonController
             }
         }
     }
+
+
 
 
 }

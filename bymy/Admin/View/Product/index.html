@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="{$Think.ADMIN_CSS_URL}/page.css">
     <script type="text/javascript" src="{$Think.const.ADMIN_JQUERY_JS}/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="{$Think.const.ADMIN_LAYUI_JS}/layui.js"></script>
+    <!--<script type="text/javascript" src="{$Think.const.ADMIN_LAYER_JS}"></script>-->
     <script type="text/javascript" src="{$Think.const.ADMIN_JS_URL}/common.js"></script>
 </head>
 <body >
@@ -24,7 +25,7 @@
             <ul class="layui-tab-title layui-tab-brief">
                 <li class="layui-this"><a href="__SELF__">商品信息</a></li>
                 <li><a href="__CONTROLLER__/add" >添加商品</a></li>
-                <li>修改商品</li>
+                <li><a href="__CONTROLLER__/edit">修改商品</a></li>
                 <li>删除商品</li>
             </ul>
             <div class="layui-tab-content">
@@ -101,8 +102,8 @@
                     <col>
                 </colgroup>
                 <thead>
-                <tr>
-                    <th><input name="" lay-skin="primary" lay-filter="allChoose" type="checkbox"></th>
+                <tr >
+                    <th style="width: 20px;"><input name="" lay-skin="primary" lay-filter="allChoose" type="checkbox"></th>
                     <th>序号</th>
                     <th>商品名称</th>
                     <th>库存</th>
@@ -111,31 +112,31 @@
                     <th>缩略图</th>
                     <th>品牌</th>
                     <th>创建时间</th>
-                    <th align="center">操作</th>
+                    <th>修改时间</th>
                     <th align="center">操作</th>
                 </tr>
                 </thead>
                 <tbody>
                 <volist name="data" id="v">
-                    <tr>
+                    <tr >
                         <td><input name="" lay-skin="primary" type="checkbox"></td>
                         <td>{$v.id}</td>
-                        <td><a href="#">{$v.name}</a></td>
-                        <td>{$v.num}</td>
+                        <td>{$v.name}</td>
+                        <td>{$v.number}</td>
                         <td>{$v.price}</td>
                         <td><img src="/{$v.image}" height="60" width="60"></td>
                         <td><img src="/{$v.thumb}" height="40" width="40"></td>
                         <td>{$v.brand}</td>
-                        <td>{$v.time|strtotime='Y-m-d h:i:s',###}</td>
-                        <td><a href="__CONTROLLER__/edit/id/{$v.id}">修改</a></td>
-                        <td><a href="javascript:;" onclick="del({$v.id},'__CONTROLLER__/del')">删除</a></td>
+                        <td>{$v.add_time|date='Y-m-d h:i:s',###}</td>
+                        <td><if condition=" $v['edit_time'] gt 0">{$v.edit_time|date='Y-m-d h:i:s',###}</if></td>
+                        <td>
+                            <a href="javascript:void(0);" onclick="edit({$v.id},'__CONTROLLER__/edit/id/{$v.id}')">修改</a>
+                            <a href="javascript:void(0);" onclick="del({$v.id},'__CONTROLLER__/del')">删除</a>
+                        </td>
                     </tr>
                 </volist>
                 </tbody>
             </table>
-            <div>
-                offset={$object->getOffset()}
-            </div>
             <div>
             <div class="page-container" >
                 <include file="Common:page" page="{$page}" />
@@ -144,5 +145,80 @@
         </div>
     </div>
 </div>
+<!--修改dialog-->
+<div id="edit-dialog" style="display: none;">
+    <div class="layui-tab-content">
+        <div class="layui-tab-item layui-show">
+            <form class="layui-form" action="__SELF__" method="post" enctype="multipart/form-data">
+                <div class="layui-form-item">
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">商品名称</label>
+                        <div class="layui-input-inline">
+                            <input name="name" lay-verify="required" placeholder="请输入商品名称" autocomplete="off"
+                                   class="layui-input" value="{$data.name}" type="text">
+                        </div>
+                        <label class="layui-form-label">选择分类</label>
+                        <div class="layui-input-inline">
+                            <select name="cate_id">
+                                <option value="">请选择分类</option>
+                                <volist name="data" id="v" >
+                                    <option value=""></option>
+                                </volist>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">价格</label>
+                        <div class="layui-input-inline input-width-small">
+                            <input type="text" name="price" placeholder="￥" autocomplete="off"
+                                   class="layui-input" value="{$data.price}">
+                        </div>
+                        <label class="layui-form-label">库存数量</label>
+                        <div class="layui-input-inline input-width-small">
+                            <input type="text" name="number" placeholder="个" autocomplete="off"
+                                   class="layui-input" value="{$data.number}">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">品牌</label>
+                        <div class="layui-input-inline input-width-small">
+                            <input type="text" name="brand" placeholder="个" autocomplete="off"
+                                   class="layui-input" value="{$data.brand}">
+                        </div>
+                        <div class="layui-input-inline" style="right:-130px">
+                            <div class="upload">
+                                <img src="/{$v.thumb}">
+                                <input type="file" name="img"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layui-input-block" style="float: right">
+                        <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                    </div>
+                </div>
+        </div>
+        </form>
+    </div>
+</div>
+<!--end修改dialog-->
+<script type="text/javascript">
+    function edit(id,url) {
+        layui.use('layer', function() {
+            var layer = layui.layer;
+            layer.open({
+                type: 1,
+                skin: 'layui-layer-hightlan', //加上边框
+                area: ['800px', '440px'], //宽高
+                btn: ['确定', '取消'],
+                content: $('#edit-dialog'),
+                yes: function (index, layero) {
+                    layer.msg('确定');//按钮【按钮一】的回调
+                }
+            });
+        });
+    }
+</script>
+
+
 </body>
 </html>

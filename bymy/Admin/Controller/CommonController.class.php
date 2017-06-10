@@ -10,7 +10,8 @@ namespace Admin\Controller;
 
 
 use Think\Controller;
-
+use Think\Image;
+use Think\Upload;
 class CommonController extends Controller
 {
     public $modelName='';
@@ -28,9 +29,15 @@ class CommonController extends Controller
         'not in'=>'NOT IN',
     ];
 
-        /*
-         * 增加一条记录到数据库
-         */
+    /*
+    * 文件上传配置
+    */
+    public $configUplaod = [];
+
+
+    /*
+     * 增加一条记录到数据库
+     */
     function __construct()
     {
 
@@ -72,6 +79,143 @@ class CommonController extends Controller
 
     }
 
+
+
+//    /**
+//     * 添加一条记录到数据库
+//     * 例子：
+//     * $modelName = \a\b\UserModel;
+//     * $data = ['name'=>'Jon','age'=>'18'];
+//     * 返回
+//     * 在表User表中插入 insert into user('name','age') valus('Jon','18')
+//     * @param string $modelName  模型，包括其命名空间
+//     * @param array $data  要保存的数据
+//     * @return array|string
+//     */
+//    public function add($modelName,array $data){
+//        if (!$modelName) {
+//            if (!$this->$modelName) {
+//                return ['status' => false, 'msg' => '缺少模型名称'];
+//            }
+//            $modelName = $this->$modelName;
+//        }
+//
+//        $model = new $modelName();
+//
+//        if (!$model->load($data, '')) {
+//            $errors = $model->getFirstErrors();
+//            return ['status' => false, 'msg' => end($errors)];
+//        }
+//        $attribute = $model->attributes;
+//        if(array_key_exists('add_time',$attribute)){
+//            $model->add_time = time();
+//        }
+//        if(array_key_exists('sn',$attribute)){
+//            $model->sn = $model->create_sn();
+//        }
+//
+//        if (!$model->save()) {
+//            $errors = $model->getFirstErrors();
+//            return ['status' => false, 'msg' => end($errors)];
+//        }
+//        return ['status' => true, 'msg' => '添加成功'];
+//    }
+
+//
+//    /**
+//     * 更新数据
+//     * @param string $modelName    所要查找的模型
+//     * @param array $data   所要更新的数据
+//     * @param array $where  所要更新记录的查找条件
+//     * @return array
+//     */
+//    public function edit($modelName,array $data,array $where){
+//
+//        if (!$modelName) {
+//            if (!$this->$modelName) {
+//                return ['status' => false, 'msg' => '缺少模型名称'];
+//            }
+//            $modelName = $this->$modelName;
+//        }
+//
+//        $model = $modelName::findone($where);
+//
+//        if (!$model) {
+//            return ['status' => false, 'msg' => '未查询到该记录'];
+//        }
+//
+//        if (!$model->load($data,'')) {
+//            $errors = $model->getFirstErrors();
+//            return ['status' => false, 'msg' => end($errors)];
+//        }
+//
+//        $attribute = $model->attributes;
+//        if (array_key_exists('edit_time', $attribute)) {
+//            $model->edit_time = time();
+//        }
+//
+//        if (!$model->save()) {
+//            $errors = $model->getFirstErrors();
+//            return ['status' => false, 'msg' => end($errors)];
+//        }
+//
+//        return ['status' => true, 'msg' => '修改成功'];
+//    }
+
+    /**
+     * 查找一条或多条记录
+     * @param $modelName
+     * @param array $where
+     * @param array $select
+     * @param string $num 'one' or 'all' 数量一条'one'或者很多条'all'记录
+     * @return array
+     */
+    public function getRecord($modelName,array $where,array $select=[],$num='one'){
+        if (!$modelName) {
+            if (!$this->$modelName) {
+                return ['status' => false, 'msg' => '缺少模型名称'];
+            }
+            $modelName = $this->$modelName;
+        }
+        if(count($select)>0){
+            $model = $modelName::find()->select($select)->where($where);
+        }else{
+            $model = $modelName::find()->where($where);
+        }
+        if($num =='one'){
+            $model = $model->asArray()->one();
+        }else{
+            $model = $model->asArray()->all();
+        }
+
+        if(!$model){
+            return ['status' => false, 'msg' => '找不到该记录'];
+        }
+        return $model;
+    }
+
+    /**
+     * 删除数据
+     * @param $modelName
+     * @param $where
+     * @return array
+     */
+    public function del($modelName,$where){
+
+        if (!$modelName) {
+            if (!$this->$modelName) {
+                return ['status' => false, 'msg' => '缺少模型名称'];
+            }
+            $modelName = $this->$modelName;
+        }
+
+        $status = $modelName::deleteAll($where);
+        if($status) {
+            return ['status'=>true,'msg'=>'删除成功！'];
+        } else {
+            return ['status'=>false,'msg'=>'删除失败！'];
+        }
+    }
 
     /**
      * * 重新定义where函数
@@ -208,7 +352,31 @@ class CommonController extends Controller
             return $m->save();
         }
     }
-    public function del(){
 
+
+    public function upload(){
+
+        $upload = new Upload($this->configUplaod);
+        $upload->savePath=date("Y").'/';
+        $path =$upload->rootPath.$upload->savePath;
+        if(is_dir($path)==false){
+            mkdir($path, 0755, true);
+        }
+        $up=$upload->upload();
+
+        $path='/'.$upload->rootPath.$up['img']['savepath'].$up['img']['savename'];
+        if($up){
+            $post=['status'=>true,'msg'=>'上传成功','src'=>$path];
+        }else{
+            $post=['status'=>false,'msg'=>'上传失败'.$upload->getError()];
+        }
+        $this->ajaxReturn($post,'json');
+    }
+
+    public function thumb($img,$path){
+        $thumb = new Image();
+        $thumb->open($img);       //打开大图
+        $thumb->thumb(100,100);             //等比例压缩长和宽都小于100的图片
+        $thumb->save($path);
     }
 }

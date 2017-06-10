@@ -9,8 +9,25 @@ layui.use('form', function(){
         form.render('checkbox');
     });
 });
-layui.upload({
-    url: ''
-    ,ext: 'jpg|png|gif' //那么，就只会支持这三种格式的上传。注意是用|分割。
-    ,success: function(res, input){}
-});        
+
+layui.use('layer', function(){
+    var layer = layui.layer;
+});
+
+function del(ids,url){
+    if(ids.length==0){
+        layer.alert('请选择产品');
+        return;
+    }
+    $.post(url,{
+        ids:ids,
+        // _csrf:CSRF
+    },function(data){
+        if(data.status){
+            location.reload()
+        }else{
+            layer.msg(data.msg);
+        }
+    },'json');
+}
+

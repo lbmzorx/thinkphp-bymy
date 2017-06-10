@@ -5,6 +5,20 @@
 .input-width-midler{width: 300px;}
 .input-width-big{width: 600px;}
 
+/*图片上传样式input框的宽度*/
+
 /*头部样式*/
 .body-all{ background-color: #FFFFFF; }
 blockquote .elem-quote{ background-color: #FFFFFF;border-bottom: solid 1px #F3F3F4; }
+
+tr a{ margin: 0 10px;}
+tr a:hover{ color:#34A8FF; }
+thead tr ,tbody tr { text-align: center;}
+.layui-table th{text-align: center;}
+.layui-table td, .layui-table th{ padding: 3px;}
+
+/*自定义弹出层*/
+body .layui-layer-hightlan .layui-layer-title{background:#F8F8F8; color:black; border: 1px solid #EEEEEE;}
+body .layui-layer-hightlan .layui-layer-btn{border:1px solid #E7E8E9}
+body .layui-layer-hightlan .layui-layer-btn a{background:#2E8DED;border-color:#E0E0E0}
+body .layui-layer-hightlan .layui-layer-btn .layui-layer-btn1{background:#F2F2F2;}
