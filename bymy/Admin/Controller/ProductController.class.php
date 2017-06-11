@@ -47,10 +47,8 @@ class ProductController extends CommonController
 
         $page = new Pagination(['totalCount'=>$count]);
         $page->pageSize=I('get.pageSize')?I('get.pageSize'):10;
-//        $show = $Page->show();// 分页显示输出
 
         $data=$query->limit($page->getOffset(),$page->getLimit())->select();
-        $this->assign('object',$page);
         $this->assign('page',$page->getPropertyArray());// 赋值分页输出
         // 赋值分页输出
         $this->assign('data', $data);
@@ -79,7 +77,6 @@ class ProductController extends CommonController
             $thumb->open($post['image']);       //打开大图
             $thumb->thumb(100,100);             //等比例压缩长和宽都小于100的图片
             $thumb->save($post['thumb']);
-
 
             $z=$product->add($post);
             if($z){
@@ -111,13 +108,18 @@ class ProductController extends CommonController
             if ($z) {
                 $this->redirect('index');
             } else {
-                $this->assign(['status' => false, 'msg' => '添加商品信息失败']);
+                $this->ajaxReturn(['status' => false, 'msg' => '添加商品信息失败'],'json');
             }
         }
 
         $data = M('Product')->find($id);
-        $this->assign('data', $data);
-        $this->display();
+        if ($data) {
+            $this->ajaxReturn(['status'=>true,'data'=>$data], 'json');
+        } else {
+            $this->ajaxReturn(['status'=>false,'msg'=>'获取数据失败'], 'json');
+        }
+
+
     }
 
     /*
@@ -150,8 +152,5 @@ class ProductController extends CommonController
             }
         }
     }
-
-
-
 
 }

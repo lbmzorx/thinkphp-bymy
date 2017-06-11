@@ -22,6 +22,7 @@ define('ADMIN_LAYUI_CSS','/Admin/Public/layui/css');
 define('ADMIN_LAYUI_MODULE_JS','/Admin/Public/layui/lay/modules');
 define('ADMIN_LAYUI_ALL_JS','/Admin/Public/layui/lay/dest/layui.all.js');
 define('ADMIN_LAYER_JS','/Admin/Public/plug/layer-v3.0.3/layer/layer.js');
+define('ADMIN_LAYDATE_JS','/Admin/Public/plug/laydate-v1.1/laydate/laydate.js');
 
 /*
  * 前台资源文件

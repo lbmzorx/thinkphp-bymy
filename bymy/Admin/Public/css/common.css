@@ -22,3 +22,9 @@ body .layui-layer-hightlan .layui-layer-title{background:#F8F8F8; color:black; b
 body .layui-layer-hightlan .layui-layer-btn{border:1px solid #E7E8E9}
 body .layui-layer-hightlan .layui-layer-btn a{background:#2E8DED;border-color:#E0E0E0}
 body .layui-layer-hightlan .layui-layer-btn .layui-layer-btn1{background:#F2F2F2;}
+
+/*select kuang*/
+select.select-self {display: block; border: solid 1px #000;appearance:none;-moz-appearance:none;-webkit-appearance:none;background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;padding-right: 14px;}
+select.select-self::-ms-expand { display: none; }
+select.select-self{padding-left:14px;background-color: #fff;border: 1px solid #e6e6e6;border-radius: 2px;height: 38px;line-height: 38px;min-width: 190px}
+select.select-self option{height: 24px;padding: 6px 5px;padding-left:14px}
