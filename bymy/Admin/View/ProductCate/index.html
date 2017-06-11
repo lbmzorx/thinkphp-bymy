@@ -57,18 +57,18 @@
                                 <label class="layui-form-label">时间</label>
                                 <div class="layui-input-inline">
                                     <select name="time-type" lay-ignore  class="select-self">
-                                        <option value="">所有时间</option>
-                                        <option value="add_time">添加时间</option>
-                                        <option value="edit_time">修改时间</option>
+                                        <option value="" <?php if($request['time-type']=='') echo 'selected'?> >所有时间</option>
+                                        <option value="add_time" <?php if($request['time-type']=='add_time') echo 'selected'?>>添加时间</option>
+                                        <option value="edit_time" <?php if($request['time-type']=='edit_time') echo 'selected'?>>修改时间</option>
                                     </select>
                                 </div>
                                 <div class="layui-input-inline ">
-                                    <input type="text" name="price[0]" placeholder="（时间小值）" autocomplete="off" class="layui-input"
-                                            value="<?php if($request['time-search'][0]) echo $request['price'][0]?>" id="time-starts">
+                                    <input type="text" name="time[0]" placeholder="（时间小值）" autocomplete="off" class="layui-input"
+                                            value="<?php if($request['time'][0]) echo $request['time'][0]?>" id="time-starts">
                                 </div>
                                 <div class="layui-input-inline" >
-                                    <input type="text" name="price[1]" placeholder="（时间大值）" autocomplete="off" class="layui-input"
-                                           value="<?php if($request['time-search'][1]) echo $request['price'][1]?>" id="time-end" >
+                                    <input type="text" name="time[1]" placeholder="（时间大值）" autocomplete="off" class="layui-input"
+                                           value="<?php if($request['time'][1]) echo $request['time'][1]?>" id="time-end" >
                                 </div>
                             </div>
                             <div class="layui-input-block" style="float: right">
@@ -213,7 +213,6 @@
 
                     var img ;
                     alert($('#edit-dialog').find('input.upload-image').val());
-
                     $.post(url,{
                         name:   $('#edit-dialog').find('input.name').    val(),
                         price:  $('#edit-dialog').find('input.price').   val(),

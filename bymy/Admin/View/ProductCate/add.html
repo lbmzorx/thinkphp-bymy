@@ -66,13 +66,14 @@
         var levellabel2,levelselect2;
         levellabel1='<label class="layui-form-label" id="select-label1">等级1父级</label>';
         levellabel2='<label class="layui-form-label" id="select-label2">等级2父级</label>';
-        levelselect1 = '<div class="layui-input-inline select-level1"><select name="pid" id="select-level1" lay-ignore  class="select-self">';
-        levelselect2 = '<div class="layui-input-inline select-level2"><select name="pid" id="select-level2" lay-ignore  class="select-self">';
+        levelselect1 = '<div class="layui-input-inline select-level1"><select name="pid" id="select-level1" lay-ignore  class="select-self"><option value="">请选择</option>';
+        levelselect2 = '<div class="layui-input-inline select-level2"><select name="pid" id="select-level2" lay-ignore  class="select-self"><option value="">请选择</option>';
         endselect='</select></div>';
 
         switch (level){
             case '1':
                getCate(0,0,function (data) {
+                   $('#select').find('#select-label1,#select-label2,.select-level1,select-level2').remove();
                    var option='';
                    for(var i=0;i<data.length;i++){
                        option = option+'<option value="'+data[i].id+'">'+data[i].name+'</option>';
@@ -83,10 +84,31 @@
                 });
                 break;
             case '2':
-                getCate(0,level);
+                $('#select').find('#select-label1,#select-label2,.select-level1,.select-level2').remove();
+                getCate(0,0,function (data) {
+                    var option='';
+                    for(var i=0;i<data.length;i++){
+                        option = option+'<option value="'+data[i].id+'">'+data[i].name+'</option>';
+                    }
+                    levelselect1 = levelselect1+option+endselect;
+                    $('#select').append(levellabel1);
+                    $('#select').append(levelselect1);
+                    $('#select-level1').on('change',function () {
+                        $('#select').find('#select-label2,.select-level2').remove();
+                        getCate($(this).val(), 1, function (data) {
+                            var option2 = '';
+                            for (var i = 0; i < data.length; i++) {
+                                option2 = option2 + '<option value="' + data[i].id + '">' + data[i].name + '</option>';
+                            }
+                            levelselect2 = levelselect2 + option2 + endselect;
+                            $('#select').append(levellabel2);
+                            $('#select').append(levelselect2);
+                        });
+                    });
+                });
                 break;
             default:
-                $('#select').find('#select-label1,#select-label2,.select-level1,select-level2').remove();
+                $('#select').find('#select-label1,#select-label2,.select-level1,.select-level2').remove();
         }
     });
 

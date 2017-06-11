@@ -121,46 +121,88 @@ class CommonController extends Controller
 //        return ['status' => true, 'msg' => '添加成功'];
 //    }
 
-//
-//    /**
-//     * 更新数据
-//     * @param string $modelName    所要查找的模型
-//     * @param array $data   所要更新的数据
-//     * @param array $where  所要更新记录的查找条件
-//     * @return array
-//     */
-//    public function edit($modelName,array $data,array $where){
-//
-//        if (!$modelName) {
-//            if (!$this->$modelName) {
-//                return ['status' => false, 'msg' => '缺少模型名称'];
-//            }
-//            $modelName = $this->$modelName;
-//        }
-//
-//        $model = $modelName::findone($where);
-//
-//        if (!$model) {
-//            return ['status' => false, 'msg' => '未查询到该记录'];
-//        }
-//
-//        if (!$model->load($data,'')) {
-//            $errors = $model->getFirstErrors();
-//            return ['status' => false, 'msg' => end($errors)];
-//        }
-//
-//        $attribute = $model->attributes;
-//        if (array_key_exists('edit_time', $attribute)) {
-//            $model->edit_time = time();
-//        }
-//
-//        if (!$model->save()) {
-//            $errors = $model->getFirstErrors();
-//            return ['status' => false, 'msg' => end($errors)];
-//        }
-//
-//        return ['status' => true, 'msg' => '修改成功'];
-//    }
+    /**
+     * 添加数据
+     * @param string $model
+     * @param array $data
+     * @return array|mixed
+     */
+    public function add($model='',array $data){
+        $model=$model?$model:$this->modelName;
+        if(empty($model)){
+            return ['status'=>false,'msg'=>'缺少模型名称'];
+        }
+        $model = M($model); // 实例化Model对象
+        if (!$model->create($data,1)){
+            return ['status'=>false,'msg'=>$model->getError()];
+        }else{
+            // 验证通过 可以进行其他数据操作
+            $field = $model->getDbFields();
+            if(in_array('add_time',$field)){
+                $model->add_time=time();
+            }
+            return $model->add();
+        }
+    }
+
+    /**
+     * 更新数据
+     * @param string $modelName    所要查找的模型
+     * @param array $data   所要更新的数据
+     * @param array $where  所要更新记录的查找条件
+     * @return array
+     */
+    protected function edit($modelName,array $data,array $where){
+
+        if (!$modelName) {
+            if (!$this->$modelName) {
+                return ['status' => false, 'msg' => '缺少模型名称'];
+            }
+            $modelName = $this->$modelName;
+        }
+        $model = M($modelName)->where($where); // 实例化Model对象
+        if (!$model->create($data,1)){
+            return ['status'=>false,'msg'=>$model->getError()];
+        }else{
+            // 验证通过 可以进行其他数据操作
+            $field = $model->getDbFields();
+            if(in_array('edit_time',$field)){
+                $model->edit_time = time();
+            }
+        }
+
+        if (!$model->save($data)) {
+            $errors = $model->getDbError();
+            return ['status' => false, 'msg' => end($errors)];
+        }
+
+
+
+        return ['status' => true, 'msg' => '修改成功'];
+    }
+
+    /**
+     * 删除数据
+     * @param $modelName
+     * @param $where
+     * @return array
+     */
+    protected function del($modelName,$where){
+        if (!$modelName) {
+            if (!$this->$modelName) {
+                return ['status' => false, 'msg' => '缺少模型名称'];
+            }
+            $modelName = $this->$modelName;
+        }
+        if ($where) {
+            $status = M($modelName)->where($where)->delete();
+            if ($status) {
+                return ['status'=>true,'msg'=>'删除成功！'];
+            } else {
+                return ['status'=>false,'msg'=>'删除失败！'];
+            }
+        }
+    }
 
     /**
      * 查找一条或多条记录
@@ -194,28 +236,6 @@ class CommonController extends Controller
         return $model;
     }
 
-    /**
-     * 删除数据
-     * @param $modelName
-     * @param $where
-     * @return array
-     */
-    public function del($modelName,$where){
-
-        if (!$modelName) {
-            if (!$this->$modelName) {
-                return ['status' => false, 'msg' => '缺少模型名称'];
-            }
-            $modelName = $this->$modelName;
-        }
-
-        $status = $modelName::deleteAll($where);
-        if($status) {
-            return ['status'=>true,'msg'=>'删除成功！'];
-        } else {
-            return ['status'=>false,'msg'=>'删除失败！'];
-        }
-    }
 
     /**
      * * 重新定义where函数
@@ -265,38 +285,43 @@ class CommonController extends Controller
             if(isset($data[$key])){
                 switch ($v){
                     case 'between':
-                        if($data[$key][0]>$data[$key][1]){
-                            $temp =$data[$key][0];
-                            $data[$key][0]=$data[$key][1];
-                            $data[$key][1]=$temp;
+                        $start=$data[$key][0];
+                        $end = $data[$key][1];
+                        if($start>$end){
+                            $temp =$start;
+                            $start=$end;
+                            $end=$temp;
                         }
-                        if($data[$key][0]){
-                            $condition[]=[$k=>['EGT',$data[$key][0]]];
+                        if("$start"!=null){
+                            $condition[]=[$k=>['EGT',$start]];
                         }
-                        if($data[$key]['1']){
-                            $condition[]=[$k=>['ELT',$data[$key][1]]];
+                        if("$end"!=null){
+                            $condition[]=[$k=>['ELT',$end]];
                         }
                         break;
                     case 'not between':
-                        if($data[$key][0]>$data[$key][1]){
-                            $temp =$data[$key][0];
-                            $data[$key][0]=$data[$key][1];
-                            $data[$key][1]=$temp;
+                        $start=$data[$key][0];
+                        $end = $data[$key][1];
+                        if($start>$end){
+                            $temp =$start;
+                            $start=$end;
+                            $end=$temp;
                         }
-                        if($data[$key][0]){
-                            $condition[]=[$k=>['ELT',$data[$key][0]]];
+                        if("$start"!=null){
+                            $condition[]=[$k=>['ELT',$start]];
                         }
-                        if($data[$key]['1']){
-                            $condition[]=[$k=>['EGT',$data[$key][1]]];
+                        if("$end"!=null){
+                            $condition[]=[$k=>['EGT',$end]];
                         }
                         break;
                     case '=':
-                        if($data[$key]){
+                        if("$data[$key]"!=null){
+                            echo $data[$key].$k;
                             $condition[]=[$k=>$data[$key]];
                         }
                         break;
                     default:
-                        if($data[$key]){
+                        if("$data[$key]"!=null){
                             $condition[]=[$k=>[$this->expression[$v],$data[$key]]];
                         }
                 }
@@ -304,55 +329,6 @@ class CommonController extends Controller
         }
         return $condition;
     }
-
-    public function add($model='',$data=''){
-        $model=$model?$model:$this->modelName;
-        if(empty($model)){
-            return ['status'=>false,'msg'=>'缺少模型名称'];
-        }
-        $m = D($model); // 实例化Model对象
-        if (!$m->create($data,1)){
-            // 如果创建失败 表示验证没有通过 输出错误提示信息
-            return ['status'=>false,'msg'=>$m->getError()];
-        }else{
-            // 验证通过 可以进行其他数据操作
-            $field = $m->getDbFields();
-            if(in_array('add_time',$field)){
-                $m->add_time=time();
-            }
-            return $m->add();
-        }
-    }
-
-    public function edit($model='',$data='',$id=''){
-
-        $id = $id?$id:I('post.id');
-        if(empty($id)){
-            return ['status'=>false,'msg'=>'请指定记录'];
-        }
-
-        $model=$model?$model:$this->modelName;
-        if(empty($model)){
-            return ['status'=>false,'msg'=>'缺少模型名称'];
-        }
-
-        $m = D($model)->where(['id'=>$id]); // 实例化Model对象
-        if(empty($m->select())){
-            return ['status'=>false,'msg'=>'未找到该记录'];
-        }
-        if (!$m->create($data,2)){
-            // 如果创建失败 表示验证没有通过 输出错误提示信息
-            return ['status'=>false,'msg'=>$m->getError()];
-        }else{
-            // 验证通过 可以进行其他数据操作
-            $field = $m->getDbFields();
-            if(in_array('edit_time',$field)){
-                $m->edit_time=time();
-            }
-            return $m->save();
-        }
-    }
-
 
     public function upload(){
 
